@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "outDir": "./build/",
+      "sourceMap": true,
+      "noImplicitAny": false,
+      "esModuleInterop": true,
+      "module": "commonjs",
+      "target": "es5",
+      "jsx": "react",
+    },
+    "exclude": ["node_modules"],
+    "include": [
+      "./src/server/*.ts",
+      "./src/server/*.tsx",
+      "./src/server/**/*.ts",
+      "./src/server/**/*.tsx",
+      
+      "./src/browser/*.ts",
+      "./src/browser/*.tsx",
+      "./src/browser/**/*.ts",
+      "./src/browser/**/*.tsx"
+    ]
+}
